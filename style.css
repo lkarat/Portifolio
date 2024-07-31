@@ -1,26 +1,56 @@
 *{
-background-color: black;
+/* background-color: black; */
 color: white;
 margin: 0px;
+padding: 0px;
+
 }
 header{
-display: flex;
-justify-content: space-around;
+background-color: grey;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+width: 100vw;
 border: 1px solid white;
-}
+height: 05vh;
+align-items: center;
 
+}
+#lKarat {
+justify-self: center;
+
+}
 main {
+background-color: black;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-row: 1fr 1fr;
 align-items: center;
+height: 90vh;
+
 
 }
 .imagem-responsiva{
 width: 60%;
 padding: 30px;
 }
-.descricao {
+
+h2,h3,h4{
+margin: 10px
+}
+
+
+footer {
+background-color: rgb(233, 191, 94);
+display: grid;
+grid-template-columns: 50% 1fr 1fr 1fr 1fr ;
+width: 100vw;
+border: 1px solid white;
+height: 05vh;
+align-items: center;
+}
+
+.rodape{
+color: black;
 
 
 }
