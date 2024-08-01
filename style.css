@@ -3,7 +3,7 @@
 color: white;
 margin: 0px;
 padding: 0px;
-
+font-family: Roboto;
 }
 header{
 background-color: grey;
@@ -13,29 +13,42 @@ width: 100vw;
 border: 1px solid white;
 height: 05vh;
 align-items: center;
-
+position: fixed;
+justify-items: center;
 }
-#lKarat {
-justify-self: center;
 
+#foto{
+    border-radius: 50%;
 }
+
 main {
 background-color: black;
 display: grid;
-grid-template-columns: 1fr 1fr;
-grid-row: 1fr 1fr;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr;
 align-items: center;
-height: 90vh;
-
-
+min-height: 100vh;
 }
+
+section {
+min-height: 100vh;
+padding-top: 10vh;
+}
+
+#fotoEdescricao{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
 .imagem-responsiva{
 width: 60%;
 padding: 30px;
 }
 
-h2,h3,h4{
-margin: 10px
+#descricao{
+align-self: center;
+
+
 }
 
 
