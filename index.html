@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio lKarat</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,13 +19,14 @@
         <a href="#fotoEdescricao">Luiz Karat</a>
         <p></p>
         <a href="#sobremim">SOBRE MIM</a>
-        <a href="#projetos">PROJETOS</a>
+        <a href="#sectionDEprojetos">PROJETOS</a>
         <a href="#contato">CONTATO</a>
 
     </header>
 
     <main>
         <section id="fotoEdescricao">
+
             <img id="foto" src="./Imagens/Foto sem formatação.png" alt="Foto de LKarat" class="imagem-responsiva">
             <div id="descricao">
                 <h2> <strong>Luiz Cambraia Karat Gouvêa da Silva</h2>
@@ -33,32 +35,77 @@
             </div>
         </section>
 
-        <section id="sobremim"> Sou o Luiz, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt a numquam
-            tempore sequi nesciunt perferendis illum cumque non, molestiae possimus ex officiis ducimus totam
-            praesentium vitae suscipit vero cum natus. </section>
+        <section id="sobremim">
 
-        <section id="projetos"> PROJETOS, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt a numquam
-            tempore sequi nesciunt perferendis illum cumque non, molestiae possimus ex officiis ducimus totam
-            praesentium vitae suscipit vero cum natus. </section>
+            <h1 id="palavraSobreMim">SOBRE MIM</h1>
+
+            <div>Sou o Luiz, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt a numquam
+                tempore sequi nesciunt perferendis illum cumque non, molestiae possimus ex officiis ducimus totam
+                praesentium vitae suscipit vero cum natus.
+            </div>
+        </section>
+
+        <section id="sectionDEprojetos">
+            <h1>PROJETOS</h1>
+
+            <div id="projetos">
+
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto">Projeto 1 - Calculadora <br>Tecnologias: JavaScript,
+                    HTML,
+                    CSS</a>
+
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto"> Projeto 2 - Portifólio <br>Tecnologias: JavaScript,
+                    HTML,
+                    CSS</a>
+
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto"> Projeto 3 - BlackJack <br>Tecnologias: JavaScript,
+                    HTML,
+                    CSS</a>
+
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto"> Projeto 4 - Biblioteca <br>Tecnologias: JavaScript,
+                    HTML,
+                    CSS</a>
 
 
-        <section id="contato"> 
-            
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto"> Projeto 5 - Arquivo Histórico <br>Tecnologias:
+                    JavaScript, HTML, CSS</a>
+
+                <a href="https://www.uol.com.br/" class="projetosContainer" target="_blank"><img class="imagensProjeto"
+                        src="./Imagens/Projeto.png" alt="Projeto"> Projeto 6 - Site <br>Tecnologias: JavaScript, HTML,
+                    CSS</a>
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+        <section id="contato">
+
             <h1 id="palavraContato">CONTATO </h1>
             <form id="formContato" action="https://formsubmit.co/86d90e488ccbe22d4bf07616adca5125" method="POST">
 
 
                 <label for="nome">Digite seu nome:</label>
-                <input type="text" name="nome" id="nome">
+                <input class="inputs" type="text" name="nome" id="nome">
 
                 <label for="email">Digite seu e-mail:</label>
-                <input type="email" name="email" id="email">
+                <input class="inputs" type="email" name="email" id="email">
 
                 <label for="mensagem">Digite sua mensagem:</label>
 
-                <textarea name="mensagem" id="mensagem"></textarea>
+                <textarea class="textarea" name="mensagem" id="mensagem"></textarea>
 
-                <button type="submit" value="Enviar"> ENVIAR</button>
+                <button class="botao" type="submit" value="Enviar"> ENVIAR</button>
 
             </form>
 
