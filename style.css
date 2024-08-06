@@ -52,7 +52,6 @@ margin-top: 20%;
 }
 
 #sobremim{
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -79,8 +78,6 @@ display: grid;
 min-height: 100vh;
 justify-items: center;
 align-items: end;
-
-
 }
 
 .projetosContainer{
@@ -90,15 +87,27 @@ align-items: center;
 justify-content: center;
 /* border: 1px solid white; */
 margin: 10%;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projetosContainer:hover {
+transform: scale(1.05);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .imagensProjeto{
    
-    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    
 
-
-
+    
 }
+
+
 
 #contato{
     display: flex;
@@ -151,6 +160,13 @@ width: 20%;
 align-self: center;
 padding: 5px;
 margin: 10px;
+cursor: pointer;
+}
+.botao:hover {
+background-color: black;
+color: white;
+
+
 }
 
 footer {
